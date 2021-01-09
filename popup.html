@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        height: 30px;
+        width: 100%;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="goal" name="goal" placeholder="Your Goal">
+    <input type="time" id="ending-time" name="ending-time" min="00:00" max="24:00">
+    <input type="text" id="redirectTo" name="redirectFrom" placeholder="Redirect To">
+    <input type="text" id="redirectFrom" name="redurectFrom" placeholder="Redirect From">
+    <select name="Prioroty" id="priorities">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+    </select>
+    <button id="setGoal" >Add Goal</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
